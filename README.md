@@ -15,15 +15,15 @@ npm run dev
 
 ### npm scripts
 
-| Syntax           | Description                                                                                             |
-|------------------|---------------------------------------------------------------------------------------------------------|
-| `dev`            | Development (port 5000)                                                                                 |
-| `dev:nollup`     | Development with crazy fast rebuilds (port 5000)                                                        |
-| `dev-dynamic`    | Development with dynamic imports                                                                        |
-| `build`          | Build a bundled app with SSR + prerendering and dynamic imports                                         |
-| `serve`          | Run after a build to preview. Serves SPA on 5000 and SSR on 5005                                        |
-| `deploy:*`       | Deploy to netlify or now, [more info](https://github.com/roxiness/routify-starter#ssr-and-pre-rendering)|
-| `export`         | Create static pages from content in dist folder (used by `npm run build`)                               |
+| Syntax           | Description                                                                                              |
+|------------------|----------------------------------------------------------------------------------------------------------|
+| `dev`            | Development (port 5000)                                                                                  |
+| `dev:nollup`     | Development with crazy fast rebuilds (port 5000)                                                         |
+| `dev-dynamic`    | Development with dynamic imports                                                                         |
+| `build`          | Build a bundled app with SSR + prerendering and dynamic imports                                          |
+| `serve`          | Run after a build to preview. Serves SPA on 5000 and SSR on 5005                                         |
+| `deploy:*`       | Deploy to netlify or now, [more info](https://github.com/roxiness/routify-starter#ssr-and-pre-rendering) |
+| `export`         | Create static pages from content in dist folder (used by `npm run build`)                                |
 
 ### Features
 - Using Tailwind JIT Mode for faster build times.
@@ -45,3 +45,6 @@ npm run dev
 ### Resources
 - [Routify Starter Template](https://github.com/roxiness/routify-starter)
 - [Notus Svelte Documentation](https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus)
+
+### License
+![GitHub](https://img.shields.io/github/license/azlkiniue/routify-notus)
