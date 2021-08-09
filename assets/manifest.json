@@ -1,0 +1,21 @@
+{
+  "background_color": "#ffffff",
+  "theme_color": "#3AC7EA",
+  "name": "Notus Svelte Routify app",
+  "short_name": "Notus Svelte",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo-800.png",
+      "sizes": "800x800",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
